@@ -1,0 +1,24 @@
+Press any key to continue . . . 
+
+Linked list contents
+addr	index	data
+A51500	0	10
+A514E0	1	9
+A514C0	2	8
+A514A0	3	7
+A51480	4	6
+A51460	5	5
+A51440	6	4
+A51420	7	3
+A51400	8	2
+A513E0	9	1
+A513C0	10	0
+A513A0	11	1
+Determine if list is circular.
+16 list comparisions.
+List is not circular.
+Make tail of list point to head.
+A513A0 -> A51500
+Determine if list is circular.
+31 list comparisions.
+List is circular.

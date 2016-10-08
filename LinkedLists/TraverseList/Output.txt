@@ -1,0 +1,16 @@
+Press any key to continue . . . 
+
+Linked list contents
+addr	index	data
+7714A0	0	9
+771480	1	8
+771460	2	7
+771440	3	6
+771420	4	5
+771400	5	4
+7713E0	6	3
+7713C0	7	2
+7713A0	8	1
+Match 7713A0: 1 == 1
+Match 7714A0: 9 == 9
+No match for 0

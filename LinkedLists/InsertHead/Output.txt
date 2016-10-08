@@ -1,0 +1,20 @@
+
+Insert first element on empty list.
+
+Insert element on list.
+Linked list contents
+addr	index	data
+1C6EF0	0	1
+
+Insert element on list.
+Linked list contents
+addr	index	data
+1C6F10	0	2
+1C6EF0	1	1
+
+Insert element on list.
+Linked list contents
+addr	index	data
+1C6F30	0	3
+1C6F10	1	2
+1C6EF0	2	1
