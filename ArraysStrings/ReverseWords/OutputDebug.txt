@@ -1,0 +1,19 @@
+Press any key to continue . . . 
+
+Start string:	The quick brown fox jumped over the lazy dog.
+(reverseString:66) str = The quick brown fox jumped over the lazy dog.
+(reverseSubString:38) str = The quick brown fox jumped over the lazy dog.
+Reverse string:	.god yzal eht revo depmuj xof nworb kciuq ehT
+(reverseWords:77) str = .god yzal eht revo depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = .god yzal eht revo depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = god yzal eht revo depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = yzal eht revo depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = eht revo depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = revo depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = depmuj xof nworb kciuq ehT
+(reverseSubString:38) str = xof nworb kciuq ehT
+(reverseSubString:38) str = nworb kciuq ehT
+(reverseSubString:38) str = kciuq ehT
+(reverseSubString:38) str = ehT
+Reverse words:	.dog lazy the over jumped fox brown quick The
+

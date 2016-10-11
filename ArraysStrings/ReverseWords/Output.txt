@@ -1,0 +1,6 @@
+Press any key to continue . . . 
+
+Start string:	The quick brown fox jumped over the lazy dog.
+Reverse string:	.god yzal eht revo depmuj xof nworb kciuq ehT
+Reverse words:	.dog lazy the over jumped fox brown quick The
+
