@@ -1,0 +1,6 @@
+Press any key to continue . . . 
+
+factorial() 4! = 24
+factorial() 5! = 120
+factorialIterate 4! = 24
+factorialIterate 5! = 120
