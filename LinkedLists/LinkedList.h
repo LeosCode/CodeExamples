@@ -14,16 +14,11 @@ the hard but reliable way.
 
 //#define DEBUG  // If this is defined before inclusion the debug statements will print
 
-#ifdef DEBUG
-#define DEBUGPRINTX( VAL ) printf("\n(%s:%d) " #VAL " = %X", __FN__, __LINE__, VAL);
-#define DEBUGPRINTD( VAL ) printf("\n(%s:%d) " #VAL " = %d", __FN__, __LINE__, VAL);
-#define DEBUGPRINTS( VAL ) printf("\n(%s:%d) " #VAL , __FN__, __LINE__, VAL);
-#else
-#define DEBUGPRINTX( VAL )
-#define DEBUGPRINTD( VAL )
-#define DEBUGPRINTS( VAL )
-#endif // NEVER
+#include <debug.h>
 
+#define DEBUGPRINTX DEBUG_X
+#define DEBUGPRINTD DEBUG_D
+#define DEBUGPRINTS DEBUG_S
 
 //
 // Common code for all tests

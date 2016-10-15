@@ -1,2 +1,5 @@
 .git/
+*.o
+*.layout
+Makefile.win
 

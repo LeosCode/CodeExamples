@@ -7,6 +7,8 @@
 
 //#define DEBUG
 
+#include <debug.h>
+
 //
 // Determine if a linked list has a circular reference
 // where a node points back to a previous node in the list.

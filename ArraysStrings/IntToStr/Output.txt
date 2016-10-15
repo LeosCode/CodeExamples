@@ -1,0 +1,10 @@
+Press any key to continue . . . 
+
+sizeof(int) = 32 bits
+Convert (123456789)	= "123456789"
+Convert (-123456789)	= "-123456789"
+Convert (-1)		= "-1"
+Convert (-2147483648)	= "-2147483648"
+Convert (2147483647) 	= "2147483647"
+Convert (0) 		= "0"
+

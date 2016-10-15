@@ -1,10 +1,10 @@
 [Project]
-FileName=CircularList.dev
-Name=CircularList
+FileName=IntToStr.dev
+Name=IntToStr
 Type=1
 Ver=2
 ObjFiles=
-Includes=C:\Users\Leo\Documents\MySourceCode\CodeExamples\LinkedLists;C:\Users\Leo\Documents\MySourceCode\CodeExamples
+Includes=
 Libs=
 PrivateResource=
 ResourceIncludes=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=CircularList.exe
+OverrideOutputName=
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -28,8 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
-UnitCount=2
+CompilerSettings=0000000000000000001000000
 
 [VersionInfo]
 Major=1
@@ -39,34 +38,14 @@ Build=0
 LanguageID=1033
 CharsetID=1252
 CompanyName=
-FileVersion=1.0.0.0
+FileVersion=
 FileDescription=Developed using the Dev-C++ IDE
 InternalName=
 LegalCopyright=
 LegalTrademarks=
 OriginalFilename=
 ProductName=
-ProductVersion=1.0.0.0
+ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
-
-[Unit1]
-FileName=main.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit2]
-FileName=..\LinkedList.h
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
 

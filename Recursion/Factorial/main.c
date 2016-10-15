@@ -1,17 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DEBUG  // If this is defined before inclusion the debug statements will print
+//#define DEBUG
 
-#ifdef DEBUG
-#define DEBUG_X( VAL ) printf("\n(%s:%d) " #VAL " = %X", __FN__, __LINE__, VAL);
-#define DEBUG_D( VAL ) printf("\n(%s:%d) " #VAL " = %d", __FN__, __LINE__, VAL);
-#define DEBUG_S( VAL ) printf("\n(%s:%d) " #VAL , __FN__, __LINE__, VAL);
-#else
-#define DEBUG_X( VAL )
-#define DEBUG_D( VAL )
-#define DEBUG_S( VAL )
-#endif // NEVER
+#include <debug.h>
 
 #undef __FN__
 #define __FN__ "factorialIterate"
