@@ -1,0 +1,11 @@
+
+sizeof(int) = 32 bits
+
+Convert 0	= 0
+Convert 1	= 1
+Convert -1	= -1
+Convert -2147483648	= -2147483648
+Convert 2147483647	= 2147483647
+strtoint() conversion error (123.4)
+strtoint() conversion error (1-3)
+

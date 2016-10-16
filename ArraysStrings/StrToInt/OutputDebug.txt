@@ -1,0 +1,17 @@
+
+sizeof(int) = 32 bits
+
+Convert 0	= 0
+Convert 1	= 1
+Convert -1	= -1
+(main:119) val = 0x80000000
+Convert -2147483648	= -2147483648
+(main:125) val = 0x7FFFFFFF
+Convert 2147483647	= 2147483647
+(strtoint:68) "*Invalid digit"
+(strtoint:69) *str = .
+strtoint() conversion error (123.4)
+(strtoint:68) "*Invalid digit"
+(strtoint:69) *str = -
+strtoint() conversion error (1-3)
+
