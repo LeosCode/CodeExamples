@@ -1,0 +1,21 @@
+Copy Special exercise
+Google's Python class
+
+usage: [--todir dir][--tozip zipfile] dir [dir ...]
+
+Write a utility that takes the arguments:
+--todir {dirpath} 
+--tozip {filepath}
+[ {filepath}, ... ]
+
+default: Looks for files with the pattern '__{text}__' in the name
+and prints them out.
+
+--todir copies the files to the {dirpath} 
+and makes the directory if needed.
+
+--tozip zips the files into the {filepath}
+---------------------------------------------------
+
+C:\Users\Leo\Documents\MySourceCode\CodeExamples\Python\GooglesPythonClass\PyQuick\Copyspecial\src\xyz__hello__.txt
+C:\Users\Leo\Documents\MySourceCode\CodeExamples\Python\GooglesPythonClass\PyQuick\Copyspecial\src\zz__something__.jpg
