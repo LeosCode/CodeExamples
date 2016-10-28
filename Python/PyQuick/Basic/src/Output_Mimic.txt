@@ -1,0 +1,49 @@
+Mimic pyquick exercise -- optional extra exercise.
+Google's Python Class
+
+Read in the file specified on the command line.
+Do a simple split() on whitespace to obtain all the words in the file.
+Rather than read the file line by line, it's easier to read
+it into one giant string and split it once.
+
+Build a "mimic" dict that maps each word that appears in the file
+to a list of all the words that immediately follow that word in the file.
+The list of words can be be in any order and should include
+duplicates. So for example the key "and" might have the list
+["then", "best", "then", "after", ...] listing
+all the words which came after "and" in the text.
+We'll say that the empty string is what comes before
+the first word in the file.
+
+With the mimic dict, it's fairly easy to emit random
+text that mimics the original. Print a word, then look
+up what words might come next and pick one at random as
+the next word.
+
+Use the empty string as the first word to prime things.
+If we ever get stuck with a word that is not in the dict,
+go back to the empty string to keep things moving.
+-------------------------------------------------------
+
+ Alice's Adventures of a treacle-well--eh,
+stupid?' `But I'm never heard the King
+said the archbishop of her knowledge, as she noticed that is--"Birds
+of way forwards each other side will
+you seen the Queen, pointing to learn! Oh, my tea when her foot, that she could,
+for your Majesty,' said Alice. `And washing?' said to say
+this), `to speak again. Suddenly she thought she,
+`if people up now,' thought she, `what a moment
+down at all speed back to see how late it's angry, and see the shore,
+you see.' `I wish they don't know what you manage to
+be no sorrow, you know--' `What are gone much pleased so he dipped
+it doesn't signify: let's try the poor Alice an angry
+tone, `For the bottle on with you, won't
+walk a bit afraid of them. `I'm afraid
+of delight, which the same order,' continued the last
+turned out when she knelt down again into
+the door began dreaming after glaring
+at the patriotic archbishop find?' The Rabbit came upon
+Alice's shoulder as we needn't be a new pair of the Gryphon replied very
+humbly; `I want to the Gryphon, with the Duchess was some time
+when she had
+>>> 

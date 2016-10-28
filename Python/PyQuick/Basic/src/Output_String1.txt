@@ -1,0 +1,57 @@
+Google Course PyQuick
+Python Test Exercises  String1
+
+ A. donuts
+ Given an int count of a number of donuts, return a string
+ of the form 'Number of donuts: <count>', where <count> is the number
+ passed in. However, if the count is 10 or more, then use the word 'many'
+ instead of the actual count.
+ So donuts(5) returns 'Number of donuts: 5'
+ and donuts(23) returns 'Number of donuts: many'
+ 
+donuts( 4 )	 OK  got: 'Number of donuts: 4' expected: 'Number of donuts: 4'
+donuts( 9 )	 OK  got: 'Number of donuts: 9' expected: 'Number of donuts: 9'
+donuts( 10 )	 OK  got: 'Number of donuts: many' expected: 'Number of donuts: many'
+donuts( 99 )	 OK  got: 'Number of donuts: many' expected: 'Number of donuts: many'
+
+
+ B. both_ends
+ Given a string s, return a string made of the first 2
+ and the last 2 chars of the original string,
+ so 'spring' yields 'spng'. However, if the string length
+ is less than 2, return instead the empty string.
+ 
+both_ends( spring )	 OK  got: 'spng' expected: 'spng'
+both_ends( Hello )	 OK  got: 'Helo' expected: 'Helo'
+both_ends( a )	 OK  got: '' expected: ''
+both_ends( xyz )	 OK  got: 'xyyz' expected: 'xyyz'
+
+
+ C. fix_start
+ Given a string s, return a string
+ where all occurences of its first char have
+ been changed to '*', except do not change
+ the first char itself.
+ e.g. 'babble' yields 'ba**le'
+ Assume that the string is length 1 or more.
+ Hint: s.replace(stra, strb) returns a version of string s
+ where all instances of stra have been replaced by strb.
+ 
+fix_start( babble )	 OK  got: 'ba**le' expected: 'ba**le'
+fix_start( aardvark )	 OK  got: 'a*rdv*rk' expected: 'a*rdv*rk'
+fix_start( google )	 OK  got: 'goo*le' expected: 'goo*le'
+fix_start( donut )	 OK  got: 'donut' expected: 'donut'
+
+
+ D. MixUp
+ Given strings a and b, return a single string with a and b separated
+ by a space '<a> <b>', except swap the first 2 chars of each string.
+ e.g.
+   'mix', pod' -> 'pox mid'
+   'dog', 'dinner' -> 'dig donner'
+ Assume a and b are length 2 or more.
+ 
+mix_up( mix pod )	 OK  got: 'pox mid' expected: 'pox mid'
+mix_up( dog dinner )	 OK  got: 'dig donner' expected: 'dig donner'
+mix_up( gnash sport )	 OK  got: 'spash gnort' expected: 'spash gnort'
+mix_up( pezzy firm )	 OK  got: 'fizzy perm' expected: 'fizzy perm'
